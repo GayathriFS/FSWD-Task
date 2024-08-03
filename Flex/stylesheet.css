@@ -1,0 +1,38 @@
+body{
+    font-family: "Gabarito", sans-serif;
+}
+.title{
+    text-align: center;
+    background-color:palevioletred;
+    margin: 10px;
+}
+.title-desc{
+    padding: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+   
+}
+.box-one,.box-two,.box-three{
+    background-color: black;
+    color: white;
+    
+    width: 300px;
+   text-align: center;
+    border-radius: 15px;
+}
+.container-box{
+    color: white;
+    border: white 2px solid;
+    padding: 15px;
+    border-radius: 15px;
+   
+    margin: 10px;
+}
+.container-box p{
+    display: flex;
+    padding-left: 40px;
+}
